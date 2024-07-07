@@ -2,6 +2,9 @@
     // No additional scripts needed for the basic tutorial page
   </script>
   
+  <svelte:head>
+    <title>NestJS - Basics</title> 
+</svelte:head>
   <main class="container mx-auto p-8 flex flex-col gap-8">
     <!-- Introduction Section -->
     <section id="intro" class="bg-white rounded-lg text-black p-6">

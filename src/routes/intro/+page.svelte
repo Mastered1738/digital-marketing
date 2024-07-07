@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>NestJS - Intro</title> 
+</svelte:head>
+
 <div class="min-h-screen">
     <!-- Main Content -->
     <main class="container mx-auto px-4 py-8">

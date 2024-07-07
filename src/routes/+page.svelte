@@ -6,11 +6,17 @@
 	import '$lib/rainbow.css'
 </script>
   
+<svelte:head>
+    <title>NestJS</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Discover NestJS - a powerful and efficient Node.js framework that simplifies backend development. Learn about its modular architecture, scalable design, and advanced features like Controllers, Services, and Dependency Injection. Build robust server-side applications with ease.">  
+</svelte:head>
   <main class="container mx-auto p-8 flex flex-col gap-12">
 	<!-- Hero Section -->
 	<section class="relative flex flex-col items-center justify-center text-center gap-4 bg-primary rounded p-8 shadow">
 		<div class="rainbow-border"></div>
-		<h1 class="text-5xl font-bold text-on-primary">Welcome to NestJS</h1>
+		<h1 class="text-5xl font-bold text-on-primary"> &#9889; Power Up with NestJS! &#9889;</h1>
 		<div class="flex justify-center">
 		  <Nestjs />
 		</div>
