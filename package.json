@@ -41,6 +41,7 @@
   "type": "module",
   "dependencies": {
     "@floating-ui/dom": "1.6.7",
+    "@vercel/speed-insights": "^1.0.12",
     "highlight.js": "11.9.0"
   }
 }
