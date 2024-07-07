@@ -7,10 +7,10 @@
 </script>
   
 <svelte:head>
-    <title>NestJS</title>
+    <title>Power Up with NestJS!</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Discover NestJS - a powerful and efficient Node.js framework that simplifies backend development. Learn about its modular architecture, scalable design, and advanced features like Controllers, Services, and Dependency Injection. Build robust server-side applications with ease.">  
+	<meta name="description" content="Discover NestJS: a Node.js framework that simplifies backend development with modular architecture and advanced features like Dependency Injection.">  
 </svelte:head>
   <main class="container mx-auto p-8 flex flex-col gap-12">
 	<!-- Hero Section -->
