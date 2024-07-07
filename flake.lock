@@ -1,0 +1,78 @@
+{
+  "nodes": {
+    "go-1-22-3": {
+      "locked": {
+        "lastModified": 1718225733,
+        "narHash": "sha256-aTIpfLT+hQr0H1d7QA2k5a5rWrkL+M8ECN2tI9ClpSg=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "a9858885e197f984d92d7fe64e9fff6b2e488d40",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "a9858885e197f984d92d7fe64e9fff6b2e488d40",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1720031269,
+        "narHash": "sha256-rwz8NJZV+387rnWpTYcXaRNvzUSnnF9aHONoJIYmiUQ=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "9f4128e00b0ae8ec65918efeba59db998750ead6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nodejs": {
+      "locked": {
+        "lastModified": 1697886341,
+        "narHash": "sha256-AdE67xPty9M9wn36nPVp6aDntIdigrs7UbyaGv1VAaM=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "44881e03af1c730cbb1d72a4d41274a2c957813a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "44881e03af1c730cbb1d72a4d41274a2c957813a",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "go-1-22-3": "go-1-22-3",
+        "nixpkgs": "nixpkgs",
+        "nodejs": "nodejs",
+        "rust-analyzer": "rust-analyzer"
+      }
+    },
+    "rust-analyzer": {
+      "locked": {
+        "lastModified": 1719658525,
+        "narHash": "sha256-Yp4Bmp54HxppB2CqIWPk/QgG2hvg8mE8e1Lt3EH1SuA=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "53a702e155d4d87cb908524ddb52db36aed98d03",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "53a702e155d4d87cb908524ddb52db36aed98d03",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

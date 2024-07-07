@@ -1,0 +1,35 @@
+/* styles.css */
+
+/* Custom rainbow border animation */
+@keyframes rainbow {
+    0% {
+      border-color: #ff0000; /* Red */
+    }
+    16.67% {
+      border-color: #ff8000; /* Orange */
+    }
+    33.33% {
+      border-color: #ffff00; /* Yellow */
+    }
+    50% {
+      border-color: #00ff00; /* Green */
+    }
+    66.67% {
+      border-color: #0000ff; /* Blue */
+    }
+    83.33% {
+      border-color: #8000ff; /* Indigo */
+    }
+    100% {
+      border-color: #ff00ff; /* Violet */
+    }
+  }
+  
+  .rainbow-border {
+    position: absolute;
+    inset: 0;
+    border: 2px solid transparent;
+    border-radius: 0.5rem;
+    animation: rainbow 5s infinite linear;
+  }
+  
