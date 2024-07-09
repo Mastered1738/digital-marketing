@@ -6,7 +6,7 @@
     <!-- Main Content -->
     <main class="container mx-auto px-4 py-8">
       <!-- Introduction Section -->
-      <section class="bg-white rounded-lg shadow-md p-8 mb-8 text-black">
+      <section class="shadow-md p-8 mb-8 text-black bg-white rounded-lg hover:shadow-rose-600 hover:shadow-xl transition duration-300 ease-in-out hover:-translate-y-2">
         <h2 class="text-3xl font-bold mb-4">What is NestJS?</h2>
         <p class="text-lg leading-relaxed">
           NestJS is a progressive Node.js framework that brings TypeScript support to your backend development. It follows a modular architecture and is built around a set of principles that promote scalability, maintainability, and efficiency in building server-side applications.
@@ -14,7 +14,7 @@
       </section>
   
       <!-- MVB Architecture Section -->
-      <section class="bg-white rounded-lg shadow-md p-8 mb-8 text-black">
+      <section class="shadow-md p-8 mb-8 text-black bg-white rounded-lg hover:shadow-rose-600 hover:shadow-xl transition duration-300 ease-in-out hover:-translate-y-2">
         <h2 class="text-3xl font-bold mb-4">Understanding the MVB Architecture</h2>
         <p class="text-lg leading-relaxed">
           NestJS embraces the MVCS architecture, which extends the traditional MVC (Model-View-Controller) pattern by adding Services (S). Here’s a breakdown:
@@ -28,7 +28,7 @@
       </section>
   
       <!-- Key Concepts Section -->
-      <section class="bg-white rounded-lg shadow-md p-8 mb-8 text-black">
+      <section class="shadow-md p-8 mb-8 text-black bg-white rounded-lg hover:shadow-rose-600 hover:shadow-xl transition duration-300 ease-in-out hover:-translate-y-2">
         <h2 class="text-3xl font-bold mb-4">Key Concepts in NestJS</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
